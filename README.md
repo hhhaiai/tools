@@ -8,5 +8,6 @@
   + [release_v1.0_android12](https://github.com/hhhaiai/tools/releases/download/v1.0/and12-appcompat.zip)
   - android12-release_veridex-linux
   - android12-release_veridex-mac
-  - USE:`./appcompat.sh --dex-file=test.apk`
+  - USE:
+      -   `./appcompat.sh --dex-file=test.apk`
 
