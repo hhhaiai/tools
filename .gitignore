@@ -68,3 +68,4 @@ fireline*.jar
 format.txt
 
 ~$*
+*.cache/

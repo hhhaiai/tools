@@ -1,0 +1,5 @@
+Windows部分系统没有自带curl，首次使用前需要先运行 双击自解压curl.exe 自动解压 curl.exe 运行文件到当前目录
+如果系统已经包含curl，请不要解压本curl（cmd输入curl看返回结果是不是curl: try 'curl --help' for more information）
+Windows 7用户使用ANSI编码版本
+Windows 8及以上版本用户使用UTF-8编码版本
+注:ANSI编码版本也可以Windows全平台通用，部分Windows系统的BUG会导致控制台输出乱码
