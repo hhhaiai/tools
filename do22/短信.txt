@@ -1,0 +1,56 @@
+
+curl 'https://22.do/action/mailbox/random' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'Referer: https://22.do/' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"' \
+  -H 'DNT: 1' \
+  -H 'Content-Type: application/json' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  --data-raw '{"type":"random"}'
+
+
+
+
+
+
+curl 'https://22.do/action/mailbox/change' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7' \
+  -H 'content-type: application/json' \
+  -H 'dnt: 1' \
+  -H 'origin: https://22.do' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://22.do/inbox' \
+  -H 'sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' \
+  --data-raw '{"email":"ulkqpxaltf0rpvx3728xhdl@colabeta.com"}'
+
+
+
+
+
+
+curl 'https://22.do/action/mailbox/message' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzY5NDk3MjUsInN1YiI6Im5vdGhpbmciLCJuYmYiOjE3MzY5NDY0MjUsImF1ZCI6IjE0MC4yMzMuMTY2Ljg4IiwiaWF0IjoxNzM2OTQ2MTI1LCJqdGkiOiJlOTUxYjU1ZjU3ODI4YTdlZGE4MDQyZjU3YjU4NzI5ZCIsImlzcyI6IkZyZWVfQVBJIiwic3RhdHVzIjoxLCJkYXRhIjpudWxsfQ._feewX0chmdKdGA6n5r43xekfKgx4Cu_0tr0kevpKyE' \
+  -H 'content-type: application/json' \
+  -H 'dnt: 1' \
+  -H 'origin: https://22.do' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://22.do/inbox' \
+  -H 'sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' \
+  --data-raw '{"email":"1cm@tnbeta.com","lastime":0}'
+
