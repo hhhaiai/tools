@@ -1,0 +1,10 @@
+## Install
+1. Install Magisk v24+
+2. (For Riru flavor) Install Riru v26.1.7+
+    - https://github.com/RikkaApps/Riru/releases/tag/v26.1.7
+3. Download and install LSPosed in Magisk app
+    - https://github.com/LSPosed/LSPosed#download
+    - https://github.com/LSPosed/LSPosed/releases
+4. Reboot
+5. Open LSPosed manager from notification
+6. Have fun :)
